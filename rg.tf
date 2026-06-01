@@ -9,5 +9,10 @@ resource "azurerm_resource_group" "satya" {
   location = "central india"
   }
 
+  resource "azurerm_resource_group" "newrg" {
+  name = "new-rg"
+  location = "central india"
+  }
+
 
 
