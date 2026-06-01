@@ -14,5 +14,9 @@ resource "azurerm_resource_group" "satya" {
   location = "central india"
   }
 
+  resource "azurerm_resource_group" "rohit-rg" {
+  name = "rohit-rg"
+  location = "central india"
+  }
 
 
