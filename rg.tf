@@ -4,6 +4,10 @@ resource "azurerm_resource_group" "main" {
   }
 
 
+resource "azurerm_resource_group" "satya" {
+  name = "satya-rg"
+  location = "central india"
+  }
 
 
 
